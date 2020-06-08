@@ -1,0 +1,9 @@
+.card-item {
+    border: 2px solid black
+}
+.card-complete{
+    background-color: green;
+}
+.card-incomplete{
+    background-color: red;
+}
