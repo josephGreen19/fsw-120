@@ -1,9 +1,31 @@
-.card-item {
-    border: 2px solid black
+* {
+    background-color: black;
 }
-.card-complete{
-    background-color: green;
+h1 {
+    color: white;
+    font-size: 36px;
+    text-decoration: underline;
 }
-.card-incomplete{
+
+td {
+    font-size: 40px;
+}
+table {
+    padding: 50px;
+    margin-left: 500px;
+}
+td {
+    padding: 50px;
+}
+.firsth1 {
     background-color: red;
+}
+.nextli {
+    background-color: blue;
+}
+.firstli {
+    background-color: white;
+}
+th {
+    color: white;
 }

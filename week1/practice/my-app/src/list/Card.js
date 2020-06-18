@@ -4,20 +4,32 @@ const Card = (props) => {
 
     let completedClass = ''
 
-    if(props.isComplete) {
-        completedClass='card-complete'
-    }else{
-        completedClass = 'card-incomplete'
-    }
+  
 
    
         
 
     return (
         <div className = {completedClass}>
-            <h1>{props.title}</h1>
-            <p>{props.description}</p>
-          
+            <table>
+                <thead>
+                    <th>Place</th>
+                    <th>Price</th>
+                    <th>Time To Go</th>
+                </thead>
+                <tbody>
+                     <tr>
+                         <td className ="firsth1">{props.place}</td>
+                        <td className = "firstli">{props.price}</td>
+                        <td className = "nextli">{props.timeToGo}</td>
+                    </tr>
+               </tbody>
+         
+           
+               
+           
+           
+        </table>
         </div>
     );
 }
