@@ -1,0 +1,30 @@
+
+.wide {
+    text-align: left;
+    width:400px ;
+    margin-left: 574px;
+    font-weight: bolder;
+}
+
+.line {
+    text-align: left;
+    margin-left: 574px;
+    font-size: 18px;
+    color: lightgray;
+
+    display: block; 
+    margin: 0 auto; 
+    width: 40%; 
+   padding-bottom: 30px; 
+    border-bottom: 1px solid lightgray; 
+}
+.subtitle {
+    text-align: left;
+    margin-left: 574px;
+    font-size: 18px;
+}
+button {
+    background-color:teal;
+    margin-left: 600px;
+    height: 35px;
+}
